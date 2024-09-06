@@ -1,0 +1,23 @@
+[09-06|20:21:19.092] INFO controller/controller.go:91 loaded config {"contents": {"preferredBlocksPerSecond":2,"gossipInterval":1000000000,"gossipMaxSize":2044723,"gossipProposerDiff":3,"gossipProposerDepth":2,"buildProposerDiff":2,"verifyTimeout":10,"traceEnabled":false,"traceSampleRate":0,"continuousProfilerDir":"","streamingBacklogSize":1024,"mempoolSize":500000,"mempoolPayerSize":500000,"mempoolExemptPayers":null,"mempoolVerifyBalances":true,"trackedPairs":null,"testMode":true,"logLevel":"INFO","parallelism":1,"stateSyncServerDelay":0}}
+[09-06|20:21:19.092] INFO controller/controller.go:100 loaded genesis {"genesis": {"hrp":"token","maxBlockTxs":20000,"maxBlockUnits":1800000,"baseUnits":48,"validityWindow":100000,"minUnitPrice":1,"unitPriceChangeDenominator":48,"windowTargetUnits":1000000000,"minBlockCost":0,"blockCostChangeDenominator":48,"windowTargetBlocks":1000000000,"warpBaseFee":1024,"warpFeePerSigner":128,"customAllocation":[{"address":"token17d0d8dsw7jgr0837hw0yu3cmz5mk2htmrym07v7uc67af60aqhmqsgp735","balance":18446744073709551615}]}}
+[09-06|20:21:19.092] INFO vm/warp_manager.go:70 starting warp manager
+[09-06|20:21:19.117] INFO controller/controller.go:151 running build and gossip in test mode
+[09-06|20:21:19.118] INFO vm/vm.go:288 initialized vm from genesis {"block": "imfRgTWijnyfwfENr8pB7WjEBp18YCUD36dD7C3c5Jm7rKNEs"}
+[09-06|20:21:19.119] INFO vm/vm.go:337 state sync client ready
+[09-06|20:21:19.119] INFO vm/vm.go:343 validity window ready
+[09-06|20:21:19.119] INFO vm/vm.go:349 node is now ready {"synced": false}
+[09-06|20:21:22.582] INFO vm/vm.go:577 parsed block {"id": "2MBHaFPrYnmunzEK6kzDSFCdESTTW5Br38rZefbyXxEgmudMn6", "height": 1}
+[09-06|20:21:22.583] INFO chain/block.go:464 verify context {"height": 1, "unit price": 1, "block cost": 0}
+[09-06|20:21:22.936] INFO vm/resolutions.go:116 verified block {"blkID": "2MBHaFPrYnmunzEK6kzDSFCdESTTW5Br38rZefbyXxEgmudMn6", "height": 1, "txs": 3813, "state ready": true}
+[09-06|20:21:22.969] INFO vm/resolutions.go:262 accepted block {"blkID": "2MBHaFPrYnmunzEK6kzDSFCdESTTW5Br38rZefbyXxEgmudMn6", "height": 1, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[09-06|20:21:23.008] INFO vm/resolutions.go:203 block processed {"blkID": "2MBHaFPrYnmunzEK6kzDSFCdESTTW5Br38rZefbyXxEgmudMn6", "height": 1}
+[09-06|20:21:24.250] INFO vm/vm.go:577 parsed block {"id": "hwugRxtFjhjTPrPpxk7mqoZLcDha6YD9LBVga2PB6wYkHrs3B", "height": 2}
+[09-06|20:21:24.250] INFO chain/block.go:464 verify context {"height": 2, "unit price": 1, "block cost": 0}
+[09-06|20:21:24.731] INFO vm/resolutions.go:116 verified block {"blkID": "hwugRxtFjhjTPrPpxk7mqoZLcDha6YD9LBVga2PB6wYkHrs3B", "height": 2, "txs": 3813, "state ready": true}
+[09-06|20:21:24.787] INFO vm/resolutions.go:262 accepted block {"blkID": "hwugRxtFjhjTPrPpxk7mqoZLcDha6YD9LBVga2PB6wYkHrs3B", "height": 2, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[09-06|20:21:24.859] INFO vm/resolutions.go:203 block processed {"blkID": "hwugRxtFjhjTPrPpxk7mqoZLcDha6YD9LBVga2PB6wYkHrs3B", "height": 2}
+[09-06|20:21:25.509] INFO vm/vm.go:577 parsed block {"id": "PxY3TnKbPkpLXbbBkB5KeCSBf5qbSiXfBBdnN2iEyxny33FaB", "height": 3}
+[09-06|20:21:25.509] INFO chain/block.go:464 verify context {"height": 3, "unit price": 1, "block cost": 0}
+[09-06|20:21:25.694] INFO vm/resolutions.go:116 verified block {"blkID": "PxY3TnKbPkpLXbbBkB5KeCSBf5qbSiXfBBdnN2iEyxny33FaB", "height": 3, "txs": 2374, "state ready": true}
+[09-06|20:21:25.702] INFO vm/resolutions.go:262 accepted block {"blkID": "PxY3TnKbPkpLXbbBkB5KeCSBf5qbSiXfBBdnN2iEyxny33FaB", "height": 3, "txs": 2374, "size": 527312, "units": 1120528, "dropped mempool txs": 0, "state ready": true}
+[09-06|20:21:25.705] INFO vm/resolutions.go:203 block processed {"blkID": "PxY3TnKbPkpLXbbBkB5KeCSBf5qbSiXfBBdnN2iEyxny33FaB", "height": 3}
